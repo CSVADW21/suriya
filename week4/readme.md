@@ -11,6 +11,7 @@ TODO: extend it to 3D and improve optimization
 ### Screenshots - 
 
 Parameterized Simplex Ink Drops -
+
 ![ink_simplex](./outputs/simplex_droplets.gif)
 
 Reference - [Etienne Jacob](https://necessary-disorder.tumblr.com/)
