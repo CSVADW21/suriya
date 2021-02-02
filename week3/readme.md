@@ -13,6 +13,6 @@ The constraints I chose were so that I could maintain the shape of the heart - s
 
 ## Sample Images
 
-![animated](https://github.com/CSVADW21/suriya/blob/master/projects/week3/gif_screenshot.gif)
+![animated](./gif_screenshot.gif)
 
-<img src="https://github.com/CSVADW21/suriya/blob/master/projects/week3/screenshot1.png" width=330px> <img src="https://github.com/CSVADW21/suriya/blob/master/projects/week3/screenshot3.png" width=330px> <img src="https://github.com/CSVADW21/suriya/blob/master/projects/week3/screenshot4.png" width=330px>
+<img src="./screenshot1.png" width=330px> <img src="./screenshot3.png" width=330px> <img src="./screenshot4.png" width=330px>
