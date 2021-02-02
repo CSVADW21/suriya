@@ -24,4 +24,6 @@ Parameterized Simplex Ink Drops -
 
 ![ink_simplex](./outputs/simplex_droplets.gif)
 
+<img src="./outputs/fr1595.png" width=330px> <img src="./outputs/fr28301.png" width=330px> <img src="./outputs/fr7673.png" width=330px>
+
 Reference - [Etienne Jacob](https://necessary-disorder.tumblr.com/)
