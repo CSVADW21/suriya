@@ -26,4 +26,10 @@ Parameterized Simplex Ink Drops -
 
 <img src="./outputs/fr1595.png" width=330px> <img src="./outputs/fr28301.png" width=330px> <img src="./outputs/fr7673.png" width=330px>
 
-Reference - [Etienne Jacob](https://necessary-disorder.tumblr.com/)
+Reference - 
+
+[Etienne Jacob](https://necessary-disorder.tumblr.com/)
+
+[Coding Train Fluids](https://thecodingtrain.com/CodingChallenges/132-fluid-simulation.html)
+
+[Coding Train Perlin Noise](https://thecodingtrain.com/CodingChallenges/024-perlinnoiseflowfield.html)
