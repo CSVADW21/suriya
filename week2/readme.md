@@ -4,8 +4,8 @@ I explored different tiles from p5.js [color documentation](https://p5js.org/ref
 
 Final Images -
 
-<img src="https://github.com/CSVADW21/suriya/blob/master/projects/week2/Final%20Images/uniform_grid_circles_600.png" width=330px> <img src="https://github.com/CSVADW21/suriya/blob/master/projects/week2/Final%20Images/uniform_grid_circles_1200.png" width=330px> <img src="https://github.com/CSVADW21/suriya/blob/master/projects/week2/Final%20Images/uniform_grid_circles_5000.png" width=330px>
+<img src="./Final%20Images/uniform_grid_circles_600.png" width=330px> <img src="./Final%20Images/uniform_grid_circles_1200.png" width=330px> <img src="./Final%20Images/uniform_grid_circles_5000.png" width=330px>
 
 Experimental Images -
 
-<img src="https://github.com/CSVADW21/suriya/blob/master/projects/week2/Experimental%20Images/exp1.png" width=330px> <img src="https://github.com/CSVADW21/suriya/blob/master/projects/week2/Experimental%20Images/exp2.png" width=330px> <img src="https://github.com/CSVADW21/suriya/blob/master/projects/week2/Experimental%20Images/exp3.png" width=330px>
+<img src="./Experimental%20Images/exp1.png" width=330px> <img src="./Experimental%20Images/exp2.png" width=330px> <img src="./Experimental%20Images/exp3.png" width=330px>
