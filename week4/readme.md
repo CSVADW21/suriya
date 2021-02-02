@@ -8,12 +8,9 @@ To bring this idea to life, I experimented with fluids(WEBGL), smoke particle sy
 
 Parameters incorporated - 
 
-`Motion Radius` - Lerp radius between two particles
-
-`M` - No. of points between the two particles
-
-`Delay Factor` - Delay in animating the two particles
-
+`Motion Radius` - Lerp radius between two particles <br />
+`M` - No. of points between the two particles <br />
+`Delay Factor` - Delay in animating the two particles <br />
 `Number of Frames` - the time interval between drawing particles
 
 TODO: extend it to 3D and improve optimization
@@ -26,10 +23,7 @@ Parameterized Simplex Ink Drops -
 
 <img src="./outputs/fr1595.png" width=330px> <img src="./outputs/fr28301.png" width=330px> <img src="./outputs/fr7673.png" width=330px>
 
-Reference - 
-
-[Etienne Jacob](https://necessary-disorder.tumblr.com/)
-
-[Coding Train Fluids](https://thecodingtrain.com/CodingChallenges/132-fluid-simulation.html)
-
+References - 
+[Etienne Jacob](https://necessary-disorder.tumblr.com/) <br />
+[Coding Train Fluids](https://thecodingtrain.com/CodingChallenges/132-fluid-simulation.html) <br />
 [Coding Train Perlin Noise](https://thecodingtrain.com/CodingChallenges/024-perlinnoiseflowfield.html)
