@@ -7,8 +7,8 @@ This week was an experimentation with camera as a source of - geesture input for
 ## Sketches -
 <img src="./outputs/Air-Brush-2021-02-09-10-04-47-Tr.gif">
 <img src="./outputs/fr3271.png">
-<img src="./outputs/fr2062.png">
-<img src="./outputs/fr1836.png">
+<img src="./outputs/fr56370.png">
+<img src="./outputs/fr3606.png">
 
 ## References -
 [Daniel Shiffman](https://youtu.be/QLHMtE5XsMs)
