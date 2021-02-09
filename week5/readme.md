@@ -5,6 +5,10 @@ This week was an experimentation with camera as a source of - geesture input for
 2. Lateral Inversion - You need to move along your right hand to draw on the left of the canvas and vice-versa, which adds another challenge to the ability to draw what's on your mind. (thanks to the inversion in OpenCV, though it is just a matter or lateral inversion)
 
 ## Sketches -
+<img src="./outputs/Air-Brush-2021-02-09-10-04-47-Tr.gif">
+<img src="./outputs/fr3271.png">
+<img src="./outputs/fr2062.png">
+<img src="./outputs/fr1836.png">
 
 ## References -
 [Daniel Shiffman](https://youtu.be/QLHMtE5XsMs)
