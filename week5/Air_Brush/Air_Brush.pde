@@ -1,5 +1,4 @@
 // Using code from Daniel Shiffman for Code Train Motion Detection, improvised by Suriya Dakshina Murthy
-// Borrowing colorful brush strokes from - https://www.uniquesoftwaredev.com/intro-to-processing-creating-colorful-brush-strokes/
 
 import processing.video.*;
 
@@ -11,17 +10,12 @@ float motionX = 0;
 float motionY = 0;
 float lerpX = 0;
 float lerpY = 0;
+float plerpX = 0;
+float plerpY = 0;
 
-
-//colorful brush strokes
-int circleSize = 0;
-int red = 0;
-int green = 0;
-int blue = 0;
-int redValue = 1;
-int greenValue = 1;
-int blueValue = 1;
-int colorMode = 1;
+float iColorR = 0;
+float iColorG = 0;
+float iColorB = 0;
 
 void setup() {
   size(1280, 860);
@@ -30,6 +24,9 @@ void setup() {
   video = new Capture(this, 100, 100, 30);
   video.start();
   prev = createImage(100, 100, RGB);
+  
+  clear();
+  background(255);
 }
 
 
@@ -52,10 +49,7 @@ void draw() {
 
   //threshold = map(mouseX, 0, width, 0, 100);
   threshold = 50;
-
-
   int count = 0;
-  
   float avgX = 0;
   float avgY = 0;
 
@@ -96,66 +90,30 @@ void draw() {
   if (count > 200) { 
     motionX = avgX / count;
     motionY = avgY / count;
-    
-    //parameters for the brush strokes
-    stroke(0, 0, 0, 50);
-    fill(red, green, blue, 50);
-    circleSize++;
-    
-    if (colorMode == 1) 
-    {
-      if (red == 255) {
-      redValue = -1;
-      } else if (red == 0) {
-      redValue = 1;
-      }
-      red += redValue;
-    }
-      
-    if (colorMode == 2) 
-    {
-      if (green == 255) {
-      greenValue = -1;
-      } else if (green == 0) {
-      greenValue = 1;
-      }
-      green += greenValue;
-    }
-      
-    if (colorMode == 3) 
-    {
-      if (blue == 255) {
-      blueValue = -1;
-      } else if (blue == 0) {
-      blueValue = 1;
-      }
-      blue += blueValue;
-    }
+     
   }
- else {
-    circleSize = 0;
+  else {
   }
   
-  float plerpX = lerpX;
-  float plerpY = lerpY;
+  plerpX = lerpX;
+  plerpY = lerpY;
   
   lerpX = lerp(lerpX, motionX, 0.1); 
   lerpY = lerp(lerpY, motionY, 0.1); 
   
-  //fill(255, 0, 255);
-  //strokeWeight(2.0);
-  //stroke(0);
-  //ellipse(lerpX*width/100, lerpY*height/100, 36, 36);
-  line(plerpX*width/100, plerpY*height/100, lerpX*width/100, lerpY*height/100);
-
-  image(video, 0, 0, 100, 100);
-  image(prev, 100, 0, 100, 100);
-
-  //println(mouseX, threshold);
+  fill(iColorR%255, iColorG%255, iColorB%255);
+  iColorR+=1;
+  iColorG+=1;
+  iColorB+=1;
   
-  if (colorMode > 3) {
-  colorMode = 1;
-  }
+  strokeWeight(2.0);
+  stroke(0);
+  ellipse(lerpX*width/100, lerpY*height/100, 36, 36);
+  //line(plerpX*width/100, plerpY*height/100, lerpX*width/100, lerpY*height/100);
+  
+  //image(video, 0, 0, 100, 100);
+  //image(prev, 100, 0, 100, 100);
+  //println(mouseX, threshold);
 }
 
 float distSq(float x1, float y1, float z1, float x2, float y2, float z2) {
@@ -169,5 +127,10 @@ void keyPressed()
   {
     clear();
     background(255);
+  }
+  else if(key=='s')
+  {
+    print("saving frame");
+    saveFrame("fr###.png");
   }
 }
