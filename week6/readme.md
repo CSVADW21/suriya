@@ -8,10 +8,10 @@ Play with the sketch here - https://openprocessing.org/sketch/1102005 </br>
 TODO: There is an error with axis inversion due to coordinate space of image and 3D and sometimes the color picker chooses inverted color, working to fix it with ray casting
 
 ## Screenshots
-<img src="./week6/screenshots/Color-Picker-Tesseract-OpenProce.gif">
-<img src="./week6/screenshots/picker3.PNG">
-<img src="./week6/screenshots/picker4.PNG">
-<img src="./week6/screenshots/picker2.PNG ">
+<img src="./screenshots/Color-Picker-Tesseract-OpenProce.gif">
+<img src="./screenshots/picker3.PNG">
+<img src="./screenshots/picker4.PNG">
+<img src="./screenshots/picker2.PNG ">
 
 ## Libraries
 p5.easyCam - 3D interaction with scene </br>
