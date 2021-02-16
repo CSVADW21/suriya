@@ -7,9 +7,9 @@ Play with the sketch here - https://openprocessing.org/sketch/1102005 </br>
 
 TODO: _There is an error with axis inversion due to coordinate space of image and 3D and sometimes the color picker chooses inverted color, working to fix it with ray casting_
 
-## Paramters
-Number of Cubes - Increasing the number of cubes increases the number of color spaces for each dimension, which gives more intricate colors but reduces perfomance </br>
-Cube Space - This can be to either to compare colors or decide color independently
+## Parameters
+`Number of Cubes` - Increasing the number of cubes increases the number of color spaces for each dimension, which gives more intricate colors but reduces perfomance </br>
+`Cube Space` - This can be to either to compare colors or decide color independently
 
 ## Screenshots
 <img src="./screenshots/Color-Picker-Tesseract-OpenProce.gif">
