@@ -52,7 +52,7 @@ public class BkgdSubtraction {
 		  return d;
 	}
 	
-	public void getValues(Capture video)
+	public void updateValues(Capture video)
 	{
 		  video.loadPixels();
 		  prev.loadPixels();
@@ -116,7 +116,7 @@ public class BkgdSubtraction {
 		  this.pgestX = gestX;
 		  this.pgestY = gestY;
 		  
-		  this.gestX = myParent.lerp(gestX, motionX, 0.1f); 
+		  this.gestX = myParent.lerp(gestX, motionX, 0.1f);
 		  this.gestY = myParent.lerp(gestY, motionY, 0.1f);
 		  
 		  //put this frame to prev
