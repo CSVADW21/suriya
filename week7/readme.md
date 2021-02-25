@@ -15,7 +15,7 @@ The library was built to easily use motion based gesture control as input simila
 #### Terminology - 
 **Package** - *motiondetection.gesture* - This is a package to include all motion detection algorithms for gesture</br>
 **Class** - *BkgdSubtraction* - The current algorithm is a manual background subtraction algorithm</br>
-**Variables** - *pgestX, pgestY, gestX, gestY* - Simialr to mouse, gestX - represents current gesture coordinates and pgestX - previous gesture coordinates</br>
+**Variables** - *pgestX, pgestY, gestX, gestY* - Similar to mouse, gestX - represents current gesture coordinates and pgestX - previous gesture coordinates</br>
 
 ## Example Screenshots
 <img src="./Screenshots/MotionDetection-Interactive2DRec.gif">
