@@ -6,7 +6,7 @@ Pre-requisite - [Video Library](https://processing.org/reference/libraries/video
 The library was built to easily use motion based gesture control as input similar to mouse, with examples of drawing and 2D object control showing it's feasability. This library was based on manual background subtraction from video frames - BkgdSubtraction.java, this can be expanded to other motion detection algorithms as part of Video library - Background Subtraction by Golan Levin and OpenCV library - Optical Flow.
 
 #### API - </br>
-`BkgdSubtraction::getValues(video)` - This updates the class variables for the current input video frame </br>
+`BkgdSubtraction::updateValues(video)` - This updates the class variables for the current input video frame </br>
 `BkgdSubtraction::pgestX` - Access class varible that holds previous X position </br>
 `BkgdSubtraction::pgestY` - Access class varible that holds previous Y position </br>
 `BkgdSubtraction::gestX` - Access class varible that holds current X position </br>
