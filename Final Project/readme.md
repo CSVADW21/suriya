@@ -1,7 +1,7 @@
 # 3D Air Brush
-
 To build a 3D painting tool, first of which is to explore a 3D brush and provide users with ability to paint in 3D. </br>
-Presentation [here](https://docs.google.com/presentation/d/1IHDXUCGRRGfJmvA7q5QQh2LCm66MGu1DnkGx56SYFtQ/edit?usp=sharing)
+Presentation [here](https://docs.google.com/presentation/d/1IHDXUCGRRGfJmvA7q5QQh2LCm66MGu1DnkGx56SYFtQ/edit?usp=sharing).
+
 ### Core Features -
 Preset of Brushes  </br>
 Interactivity - Mouse & Keyboard | Camera-based Gesture <using the Gesture Library>  </br>
