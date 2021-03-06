@@ -18,3 +18,8 @@ Inspiration - Minecraft - Lego - Tetris
 ### Update1: Challenges
 Understanding the coordinate system of WebGL and understanding Isometric projection and getting it to align with mouse interactions(orbitControl())
 <img src="./progress/Isometric Paint Tool - OpenProcessing — Mozilla Firefox 05-03-2021 12_08_54 PM.png">
+
+### Update2: Got the Isometric camera position and 2D cube drawing in place
+Have better understanding of isometric cameras and now able to draw cubes in a XY plane.
+
+<img src="./progress/Isometric Paint Tool - OpenProcessing — Mozilla Firefox 05-03-2021 06_02_29 PM.png" width=49%> <img src="./progress/Isometric Paint Tool - OpenProcessing — Mozilla Firefox 05-03-2021 08_34_08 PM.png" width=49%> 
