@@ -21,5 +21,8 @@ Understanding the coordinate system of WebGL and understanding Isometric project
 
 ### Update2: Got the Isometric camera position and 2D cube drawing in place
 Have better understanding of isometric cameras and now able to draw cubes in a XY plane.
+<img src="./progress/Isometric Paint Tool - OpenProcessing — Mozilla Firefox 05-03-2021 06_02_29 PM.png" width=49%> <img src="./progress/Isometric Paint Tool - OpenProcessing — Mozilla Firefox 05-03-2021 08_34_08 PM.png" width=49%>
 
-<img src="./progress/Isometric Paint Tool - OpenProcessing — Mozilla Firefox 05-03-2021 06_02_29 PM.png" width=49%> <img src="./progress/Isometric Paint Tool - OpenProcessing — Mozilla Firefox 05-03-2021 08_34_08 PM.png" width=49%> 
+### Update3: Got the correct isometric projections correct
+Got the correct isometric projections and it is starting to look more like a 3D Tetris. Now working on interacting with the isometric cube and providing with interactivity tools - keyboard and mouse
+<img src="./progress/Isometric Paint Tool - OpenProcessing — Mozilla Firefox 06-03-2021 09_36_07 PM.png">
