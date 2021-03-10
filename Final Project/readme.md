@@ -26,3 +26,7 @@ Have better understanding of isometric cameras and now able to draw cubes in a X
 ### Update3: Got the correct isometric projections correct
 Got the correct isometric projections and it is starting to look more like a 3D Tetris. Now working on interacting with the isometric cube and providing with interactivity tools - keyboard and mouse
 <img src="./progress/Isometric Paint Tool - OpenProcessing — Mozilla Firefox 06-03-2021 09_36_07 PM.png">
+
+
+### Update4: Working on Raytracer for Ray Cube Intersection
+Building a Ray and Intersect routines to check if a ray from the camera and mouse input interacts the cubes in the scene to provide interactivity to user for painting in isometric view.
