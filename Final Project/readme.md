@@ -30,3 +30,4 @@ Got the correct isometric projections and it is starting to look more like a 3D 
 
 ### Update4: Working on Raytracer for Ray Cube Intersection
 Building a Ray and Intersect routines to check if a ray from the camera and mouse input interacts the cubes in the scene to provide interactivity to user for painting in isometric view.
+<img src="./progress/Isometric-Paint-Tool-OpenProcess.gif">
