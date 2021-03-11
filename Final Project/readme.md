@@ -1,5 +1,8 @@
 # Documenting Progress of the Project
 
+Project Presentation [here](https://docs.google.com/presentation/d/1mItgMro5b85Jv63ETo-tGoRpr01n6TImhW2djOZaTCw/edit?usp=sharing) </br>
+OpenProcessing Sketch - https://openprocessing.org/sketch/1124370
+
 ## Initial Idea: Building a Free-hand 3D Painting Tool
 The idea was to build a 3D free-hand painting tool, that allows paiting in all three dimensions. But the challenges of this was two fold - building a brush that can represent a paint brush in 3D and interactivity in 3D - using mouse and keyboard.
 Solution - To add constraints in terms of brush - Box/Lines and interactivity - to paint in 2D while having a rotation on the third axis.
@@ -43,3 +46,7 @@ Working x-z plane keyboard cube interactions routines. This enables drawing isom
 ### Update7: Working Prototype
 Got a working prototype with keyboard interactions - arrow keys for x-z 2D plane interactions and shift-ctrl keys for the y-dimension interactions. This enables a complete 3D isometric voxel building tool.
 <img src="./progress/Isometric-Paint-Tool-OpenProcess3.gif">
+
+### Final Product v1.0
+Working isometric voxel building/painting tool. Check out the sketch here - https://openprocessing.org/sketch/1124370
+<img src="./progress/screenshot_final2.jpg">
