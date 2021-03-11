@@ -1,6 +1,6 @@
 # Documenting Progress of the Project
 
-Project Presentation [here](https://docs.google.com/presentation/d/1mItgMro5b85Jv63ETo-tGoRpr01n6TImhW2djOZaTCw/edit?usp=sharing) </br>
+Project Presentation [here](https://docs.google.com/presentation/d/1mItgMro5b85Jv63ETo-tGoRpr01n6TImhW2djOZaTCw/edit?usp=sharing). </br>
 OpenProcessing Sketch - https://openprocessing.org/sketch/1124370
 
 ## Initial Idea: Building a Free-hand 3D Painting Tool
