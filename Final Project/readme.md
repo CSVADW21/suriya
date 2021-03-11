@@ -31,3 +31,11 @@ Got the correct isometric projections and it is starting to look more like a 3D 
 ### Update4: Working on Raytracer for Ray Cube Intersection
 Building a Ray and Intersect routines to check if a ray from the camera and mouse input interacts the cubes in the scene to provide interactivity to user for painting in isometric view.
 <img src="./progress/Isometric-Paint-Tool-OpenProcess.gif">
+
+### Update5: Failed attempts with Ray Tracing and Mouse Interactions
+After spending quite some time with trying to get the mouse to align with the cube-ray intersections routines, I decided to take a different route to get the same results using keyboards.
+<img src="./progress/Isometric Paint Tool - OpenProcessing — Mozilla Firefox 10-03-2021 08_18_37 PM.png">
+
+### Update6: Implemented a simple 2D keyboard interaction routine
+Working x-z plane keyboard cube interactions routines. This enables drawing isometric shapes in the 2D place. Working on finding ways to enable depth interactions from this plane.
+<img src="./progress/Isometric-Paint-Tool-OpenProcess2.gif">
