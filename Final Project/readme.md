@@ -39,3 +39,7 @@ After spending quite some time with trying to get the mouse to align with the cu
 ### Update6: Implemented a simple 2D keyboard interaction routine
 Working x-z plane keyboard cube interactions routines. This enables drawing isometric shapes in the 2D place. Working on finding ways to enable depth interactions from this plane.
 <img src="./progress/Isometric-Paint-Tool-OpenProcess2.gif">
+
+### Update7: Working Prototype
+Got a working prototype with keyboard interactions - arrow keys for x-z 2D plane interactions and shift-ctrl keys for the y-dimension interactions. This enables a complete 3D isometric voxel building tool.
+<img src="./progress/Isometric-Paint-Tool-OpenProcess3.gif">
