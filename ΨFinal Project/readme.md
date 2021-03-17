@@ -16,3 +16,7 @@ Major contributions -
 <img src="./screenshots/screenshot_final3.jpg">
 <img src="./screenshots/screenshot_final4.jpg">
 <img src="./screenshots/screenshot_final2.jpg">
+
+#### Some CAD Drawings
+<img src="./screenshots/cad1.jpg">
+<img src="./screenshots/cad2.jpg">
